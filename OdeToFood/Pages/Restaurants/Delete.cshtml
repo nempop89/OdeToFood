@@ -1,0 +1,15 @@
+﻿@page "{restaurantId}"
+@model OdeToFood.Pages.Restaurants.DeleteModel
+@{
+   ViewData["Title"] = "Delete";
+}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <h2>Delete!</h2>
+    <div class="alert alert-danger">
+        Are you shure you want to delete @Model.Restaurant.Name?
+    </div>
+    <form method="post">
+        <button type="submit" class="btn btn-danger">YEs!</button>
+        <a asp-page="List" cass="btn btn-primary">Cancel</a>
+    </form>

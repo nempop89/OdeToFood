@@ -1,0 +1,29 @@
+﻿@page
+@model ListModel
+@{
+    ViewData["Title"] = "Restaurants";
+}
+
+<h1>Restaurants</h1>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<form method="get"> 
+    <div class = "form-group">
+        <div class = "input-group">
+            <input type = "search" class = "form-control" asp-for="SearchTerm"/>
+            <span class="input-group-btn">
+                <button class="btn btn-secondary">
+                    <i class="glyphicon glyphicon-search"></i>
+                </button>
+            </span>
+        </div>
+    </div>
+</form>
+
+@foreach(var restaurant in Model.Restaurants)
+{
+    <partial name="_Summary" model="restaurant"/>
+}
+
+<a asp-page=".\Edit" class="btn btn-primary">Add New Restaurant</a>
+
+<div> @Model.Message </div>

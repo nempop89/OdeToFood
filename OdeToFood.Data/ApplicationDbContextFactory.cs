@@ -11,5 +11,7 @@ public class ApplicationDbContextFactory : IDesignTimeDbContextFactory<OdeToFood
         optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=OdeToFood;Integrated Security=True;");
 
         return new OdeToFoodDbContext(optionsBuilder.Options);
+
+        //lalalla
     }
 }

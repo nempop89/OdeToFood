@@ -12,6 +12,5 @@ public class ApplicationDbContextFactory : IDesignTimeDbContextFactory<OdeToFood
 
         return new OdeToFoodDbContext(optionsBuilder.Options);
 
-        //lalalla
     }
 }

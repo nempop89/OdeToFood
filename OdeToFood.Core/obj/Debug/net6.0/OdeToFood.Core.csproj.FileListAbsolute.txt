@@ -1,4 +1,5 @@
 D:\CODES\OdeToFood\OdeToFood\OdeToFood.Core\bin\Debug\net6.0\OdeToFood.Core.deps.json
+D:\CODES\OdeToFood\OdeToFood\OdeToFood.Core\bin\Debug\net6.0\OdeToFood.Core.runtimeconfig.json
 D:\CODES\OdeToFood\OdeToFood\OdeToFood.Core\bin\Debug\net6.0\OdeToFood.Core.dll
 D:\CODES\OdeToFood\OdeToFood\OdeToFood.Core\bin\Debug\net6.0\OdeToFood.Core.pdb
 D:\CODES\OdeToFood\OdeToFood\OdeToFood.Core\obj\Debug\net6.0\OdeToFood.Core.csproj.AssemblyReference.cache
@@ -9,6 +10,5 @@ D:\CODES\OdeToFood\OdeToFood\OdeToFood.Core\obj\Debug\net6.0\OdeToFood.Core.cspr
 D:\CODES\OdeToFood\OdeToFood\OdeToFood.Core\obj\Debug\net6.0\OdeToFood.Core.dll
 D:\CODES\OdeToFood\OdeToFood\OdeToFood.Core\obj\Debug\net6.0\refint\OdeToFood.Core.dll
 D:\CODES\OdeToFood\OdeToFood\OdeToFood.Core\obj\Debug\net6.0\OdeToFood.Core.pdb
-D:\CODES\OdeToFood\OdeToFood\OdeToFood.Core\obj\Debug\net6.0\ref\OdeToFood.Core.dll
-D:\CODES\OdeToFood\OdeToFood\OdeToFood.Core\bin\Debug\net6.0\OdeToFood.Core.runtimeconfig.json
 D:\CODES\OdeToFood\OdeToFood\OdeToFood.Core\obj\Debug\net6.0\OdeToFood.Core.genruntimeconfig.cache
+D:\CODES\OdeToFood\OdeToFood\OdeToFood.Core\obj\Debug\net6.0\ref\OdeToFood.Core.dll
